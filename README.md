@@ -1,0 +1,1 @@
+This repository contains a Solidity smart contract with a bug in its ownership transfer function. The bug is that the function does not check if the newOwner is a valid address.  This can lead to unexpected behavior or vulnerabilities. A solution is provided in bugSolution.sol that fixes this issue.
